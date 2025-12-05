@@ -1,0 +1,39 @@
+# Fichiers système macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fichiers temporaires macOS
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE - Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IDE - JetBrains (IntelliJ, PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# IDE - Eclipse
+.project
+.classpath
+.settings/
+
+# IDE - Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers de logs
+*.log
+
+# Variables d'environnement
+.env
+.env.local
+
+# Dépendances (si applicable)
+node_modules/
+vendor/
