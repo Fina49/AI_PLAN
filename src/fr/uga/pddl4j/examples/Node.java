@@ -1,4 +1,4 @@
-package fr.uga.pddl4j.examples.asp;
+package fr.uga.pddl4j.examples;
 
 import fr.uga.pddl4j.problem.State;
 
