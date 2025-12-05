@@ -1,0 +1,2 @@
+http://pddl4j.imag.fr/writing_your_own_planner.html#pre-requisite-installations
+https://github.com/pellierd/pddl4j
