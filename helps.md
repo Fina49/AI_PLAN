@@ -1,7 +1,7 @@
-Installations
+### Installations
 http://pddl4j.imag.fr/running_planners_from_command_line.html#hsp-heuristic-search-planner
 http://pddl4j.imag.fr/writing_your_own_planner.html#pre-requisite-installations
 
-Exemples
+### Exemples
 http://pddl4j.imag.fr/repository/exercices/pddl_domain_problem_syntax.html
 https://github.com/pellierd/pddl4j

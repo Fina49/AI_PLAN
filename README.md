@@ -18,19 +18,18 @@ java -cp classes:lib/pddl4j-4.0.0.jar fr.uga.pddl4j.examples.mcp.MCP --help
 ## A* examples
 ### Blocksworld
 ```bash
-
-java -cp classes:lib/pddl4j-4.0.0.jar fr.uga.pddl4j.examples.asp.ASP src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/blocksworld-domain.pddl src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/blocksworld.pddl -e FAST_FORWARD -w 1.2 -t 1000
+java -cp classes:lib/pddl4j-4.0.0.jar fr.uga.pddl4j.examples.asp.ASP src/test/resources/benchmarks/pddl/blocksworld/blocksworld-domain.pddl src/test/resources/benchmarks/pddl/blocksworld/blocksworld.pddl -e FAST_FORWARD -w 1.2 -t 1000
 ```
 ### Hanoi
 ```bash
-java -cp classes:lib/pddl4j-4.0.0.jar fr.uga.pddl4j.examples.asp.ASP src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/hanoi-domain.pddl src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/hanoi.pddl -e FAST_FORWARD -w 1.2 -t 1000
+java -cp classes:lib/pddl4j-4.0.0.jar fr.uga.pddl4j.examples.asp.ASP src/test/resources/benchmarks/pddl/hanoi/hanoi-domain.pddl src/test/resources/benchmarks/pddl/hanoi/hanoi.pddl -e FAST_FORWARD -w 1.2 -t 1000
 ```
 ## MCP examples
 ### Blocksworld
 ```bash
-java -cp classes:lib/pddl4j-4.0.0.jar fr.uga.pddl4j.examples.asp.ASP src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/blocksworld-domain.pddl src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/blocksworld.pddl -e FAST_FORWARD -w 1.2 -t 1000
+java -cp classes:lib/pddl4j-4.0.0.jar fr.uga.pddl4j.examples.mcp.MCP src/test/resources/benchmarks/pddl/blocksworld/blocksworld-domain.pddl src/test/resources/benchmarks/pddl/blocksworld/blocksworld.pddl -t 1000
 ```
 ### Hanoi
 ```bash
-java -cp classes:lib/pddl4j-4.0.0.jar fr.uga.pddl4j.examples.mcp.MCP src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/hanoi-domain.pddl src/test/resources/benchmarks/pddl/ipc2002/depots/strips-automatic/hanoi.pddl -t 1000
+java -cp classes:lib/pddl4j-4.0.0.jar fr.uga.pddl4j.examples.mcp.MCP src/test/resources/benchmarks/pddl/hanoi/hanoi-domain.pddl src/test/resources/benchmarks/pddl/hanoi/hanoi.pddl -t 1000
 ```
