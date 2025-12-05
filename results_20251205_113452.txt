@@ -1,0 +1,108 @@
+========================================
+RÉSULTATS DE PLANIFICATION
+Algorithm: ASP
+Date: Fri Dec  5 11:34:52 CET 2025
+========================================
+
+
+========================================
+TEST: BlocksWorld
+Domain: src/test/resources/benchmarks/pddl/blocksworld/blocksworld-domain.pddl
+Problem: src/test/resources/benchmarks/pddl/blocksworld/blocksworld.pddl
+========================================
+
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "blocksworld-domain.pddl" done successfully
+parsing problem file "blocksworld.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (40 actions, 29 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: (unstack d c) [0]
+01: ( put-down d) [0]
+02: (unstack c b) [0]
+03: ( put-down c) [0]
+04: (unstack b a) [0]
+05: (  stack b c) [0]
+06: (  pick-up a) [0]
+07: (  stack a d) [0]
+08: (unstack b c) [0]
+09: (  stack b a) [0]
+10: (  pick-up c) [0]
+11: (  stack c b) [0]
+
+time spent:       0,01 seconds parsing 
+                  0,02 seconds encoding 
+                  0,00 seconds searching
+                  0,03 seconds total time
+
+memory used:      0,19 MBytes for problem representation
+                  0,00 MBytes for searching
+                  0,19 MBytes total
+
+
+
+----------------------------------------
+
+
+========================================
+TEST: Hanoi
+Domain: src/test/resources/benchmarks/pddl/hanoi/hanoi-domain.pddl
+Problem: src/test/resources/benchmarks/pddl/hanoi/hanoi.pddl
+========================================
+
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "hanoi-domain.pddl" done successfully
+parsing problem file "hanoi.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (86 actions, 30 fluents)
+
+* Starting A* search 
+* A* search succeeded
+
+found plan as follows:
+
+00: ( move-disk-to-peg d1 d2 peg2) [0]
+01: ( move-disk-to-peg d2 d3 peg3) [0]
+02: ( move-peg-to-disk d1 peg2 d2) [0]
+03: ( move-disk-to-peg d3 d4 peg2) [0]
+04: (  move-disk-to-disk d1 d2 d4) [0]
+05: ( move-peg-to-disk d2 peg3 d3) [0]
+06: (  move-disk-to-disk d1 d4 d2) [0]
+07: (move-peg-to-peg d4 peg1 peg3) [0]
+08: (  move-disk-to-disk d1 d2 d4) [0]
+09: ( move-disk-to-peg d2 d3 peg1) [0]
+10: (  move-disk-to-disk d1 d4 d2) [0]
+11: ( move-peg-to-disk d3 peg2 d4) [0]
+12: ( move-disk-to-peg d1 d2 peg2) [0]
+13: ( move-peg-to-disk d2 peg1 d3) [0]
+14: ( move-peg-to-disk d1 peg2 d2) [0]
+
+time spent:       0,01 seconds parsing 
+                  0,03 seconds encoding 
+                  0,01 seconds searching
+                  0,04 seconds total time
+
+memory used:      0,35 MBytes for problem representation
+                  0,00 MBytes for searching
+                  0,35 MBytes total
+
+
+
+----------------------------------------
+
+
+========================================
+TESTS TERMINÉS
+Date: Fri Dec  5 11:34:53 CET 2025
+========================================
