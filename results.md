@@ -1,0 +1,31 @@
+### ASP Blocksworld solution:
+00: (unstack d c) [0]
+01: ( put-down d) [0]
+02: (unstack c b) [0]
+
+03: ( put-down c) [0]
+04: (unstack b a) [0]
+05: (  stack b c) [0]
+06: (  pick-up a) [0]
+07: (  stack a d) [0]
+08: (unstack b c) [0]
+09: (  stack b a) [0]
+10: (  pick-up c) [0]
+11: (  stack c b) [0]
+
+### MCP Blocksworld solution:
+00: (unstack d c) [0]
+01: ( put-down d) [0]
+02: (unstack c b) [0]
+
+03: (  stack c d) [0]
+04: (unstack c d) [0]
+05: ( put-down c) [0]
+06: (unstack b a) [0]
+07: ( put-down b) [0]
+08: (  pick-up a) [0]
+09: (  stack a d) [0]
+10: (  pick-up b) [0]
+11: (  stack b a) [0]
+12: (  pick-up c) [0]
+13: (  stack c b) [0]
