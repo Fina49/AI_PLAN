@@ -15,6 +15,17 @@ java -cp classes:lib/pddl4j-4.0.0.jar fr.uga.pddl4j.examples.asp.ASP --help
 ```bash
 java -cp classes:lib/pddl4j-4.0.0.jar fr.uga.pddl4j.examples.mcp.MCP --help
 ```
+
+## A* run tests
+```bashbash
+./run_asp_tests.sh
+```
+
+## MCP run tests
+```bashbash
+./run_mcp_tests.sh
+```
+
 ## A* examples
 ### Blocksworld
 ```bash
@@ -24,6 +35,7 @@ java -cp classes:lib/pddl4j-4.0.0.jar fr.uga.pddl4j.examples.asp.ASP src/test/re
 ```bash
 java -cp classes:lib/pddl4j-4.0.0.jar fr.uga.pddl4j.examples.asp.ASP src/test/resources/benchmarks/pddl/hanoi/hanoi-domain.pddl src/test/resources/benchmarks/pddl/hanoi/hanoi.pddl -e FAST_FORWARD -w 1.2 -t 1000
 ```
+
 ## MCP examples
 ### Blocksworld
 ```bash
