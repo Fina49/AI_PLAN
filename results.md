@@ -37,6 +37,7 @@
 01: ( move-disk-to-peg d2 d3 peg3) [0]
 02: ( move-peg-to-disk d1 peg2 d2) [0]
 03: ( move-disk-to-peg d3 d4 peg2) [0]
+
 04: (  move-disk-to-disk d1 d2 d4) [0]
 05: ( move-peg-to-disk d2 peg3 d3) [0]
 06: (  move-disk-to-disk d1 d4 d2) [0]
@@ -47,6 +48,7 @@
 11: ( move-peg-to-disk d3 peg2 d4) [0]
 12: ( move-disk-to-peg d1 d2 peg2) [0]
 13: ( move-peg-to-disk d2 peg1 d3) [0]
+
 14: ( move-peg-to-disk d1 peg2 d2) [0]
 
 ### MCP Hanoi solution:
@@ -54,6 +56,7 @@
 01: ( move-disk-to-peg d2 d3 peg3) [0]
 02: ( move-peg-to-disk d1 peg2 d2) [0]
 03: ( move-disk-to-peg d3 d4 peg2) [0]
+
 04: (  move-disk-to-disk d1 d2 d3) [0]
 05: (  move-disk-to-disk d1 d3 d2) [0]
 06: (  move-disk-to-disk d1 d2 d3) [0]
@@ -77,4 +80,5 @@
 24: ( move-peg-to-disk d2 peg1 d3) [0]
 25: (move-peg-to-peg d1 peg2 peg1) [0]
 26: (move-peg-to-peg d1 peg1 peg2) [0]
+
 27: ( move-peg-to-disk d1 peg2 d2) [0]
