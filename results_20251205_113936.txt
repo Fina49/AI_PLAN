@@ -1,13 +1,13 @@
 ========================================
 RÉSULTATS DE PLANIFICATION
 Algorithm: MCP
-Date: Fri Dec  5 11:34:46 CET 2025
+Date: Fri Dec  5 11:39:36 CET 2025
 ========================================
 
 
 ========================================
 TEST: BlocksWorld
-Domain: src/test/resources/benchmarks/pddl/blocksworld/blocksworld-domain.pddl
+Domain: src/test/resources/benchmarks/pddl/blocksworld/blocksworld_domain.pddl
 Problem: src/test/resources/benchmarks/pddl/blocksworld/blocksworld.pddl
 ========================================
 
@@ -38,7 +38,7 @@ Options:
 
 ========================================
 TEST: Hanoi
-Domain: src/test/resources/benchmarks/pddl/hanoi/hanoi-domain.pddl
+Domain: src/test/resources/benchmarks/pddl/hanoi/hanoi_domain.pddl
 Problem: src/test/resources/benchmarks/pddl/hanoi/hanoi.pddl
 ========================================
 
@@ -69,5 +69,5 @@ Options:
 
 ========================================
 TESTS TERMINÉS
-Date: Fri Dec  5 11:34:47 CET 2025
+Date: Fri Dec  5 11:39:36 CET 2025
 ========================================

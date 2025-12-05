@@ -1,19 +1,19 @@
 ========================================
 RÉSULTATS DE PLANIFICATION
 Algorithm: ASP
-Date: Fri Dec  5 11:34:52 CET 2025
+Date: Fri Dec  5 11:39:31 CET 2025
 ========================================
 
 
 ========================================
 TEST: BlocksWorld
-Domain: src/test/resources/benchmarks/pddl/blocksworld/blocksworld-domain.pddl
+Domain: src/test/resources/benchmarks/pddl/blocksworld/blocksworld_domain.pddl
 Problem: src/test/resources/benchmarks/pddl/blocksworld/blocksworld.pddl
 ========================================
 
 WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
 
-parsing domain file "blocksworld-domain.pddl" done successfully
+parsing domain file "blocksworld_domain.pddl" done successfully
 parsing problem file "blocksworld.pddl" done successfully
 # WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
 # WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
@@ -54,13 +54,13 @@ memory used:      0,19 MBytes for problem representation
 
 ========================================
 TEST: Hanoi
-Domain: src/test/resources/benchmarks/pddl/hanoi/hanoi-domain.pddl
+Domain: src/test/resources/benchmarks/pddl/hanoi/hanoi_domain.pddl
 Problem: src/test/resources/benchmarks/pddl/hanoi/hanoi.pddl
 ========================================
 
 WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
 
-parsing domain file "hanoi-domain.pddl" done successfully
+parsing domain file "hanoi_domain.pddl" done successfully
 parsing problem file "hanoi.pddl" done successfully
 # WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
 # WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
@@ -104,5 +104,5 @@ memory used:      0,35 MBytes for problem representation
 
 ========================================
 TESTS TERMINÉS
-Date: Fri Dec  5 11:34:53 CET 2025
+Date: Fri Dec  5 11:39:32 CET 2025
 ========================================
