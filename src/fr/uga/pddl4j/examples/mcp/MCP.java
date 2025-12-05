@@ -1,4 +1,4 @@
-package fr.uga.pddl4j.examples.asp;
+package fr.uga.pddl4j.examples.mcp;
 
 import fr.uga.pddl4j.parser.DefaultParsedProblem;
 import fr.uga.pddl4j.parser.RequireKey;
@@ -23,8 +23,8 @@ import java.util.*;
  * Monte Carlo Tree Search planner for solving planning problems.
  * Uses MCTS with UCB1 for node selection and random rollouts.
  */
-@CommandLine.Command(name = "MCTSSP",
-    version = "MCTSSP 1.0",
+@CommandLine.Command(name = "MCP",
+    version = "MCP 1.0",
     description = "Solves a specified planning problem using Monte Carlo Tree Search.",
     sortOptions = false,
     mixinStandardHelpOptions = true,
@@ -33,9 +33,9 @@ import java.util.*;
     descriptionHeading = "%nDescription:%n%n",
     parameterListHeading = "%nParameters:%n",
     optionListHeading = "%nOptions:%n")
-public class MCTSSP extends AbstractPlanner {
+public class MCP extends AbstractPlanner {
 
-    private static final Logger LOGGER = LogManager.getLogger(MCTSSP.class.getName());
+    private static final Logger LOGGER = LogManager.getLogger(MCP.class.getName());
 
     /**
      * Exploration constant for UCB1 formula
@@ -109,11 +109,11 @@ public class MCTSSP extends AbstractPlanner {
         }
     }
 
-    public MCTSSP() {
-        this(MCTSSP.getDefaultConfiguration());
+    public MCP() {
+        this(MCP.getDefaultConfiguration());
     }
 
-    public MCTSSP(final PlannerConfiguration configuration) {
+    public MCP(final PlannerConfiguration configuration) {
         super();
         this.setConfiguration(configuration);
     }
@@ -159,12 +159,12 @@ public class MCTSSP extends AbstractPlanner {
 
     public static PlannerConfiguration getDefaultConfiguration() {
         PlannerConfiguration config = Planner.getDefaultConfiguration();
-        config.setProperty(MCTSSP.EXPLORATION_CONSTANT_SETTING, 
-            Double.toString(MCTSSP.DEFAULT_EXPLORATION_CONSTANT));
-        config.setProperty(MCTSSP.MAX_ROLLOUT_DEPTH_SETTING, 
-            Integer.toString(MCTSSP.DEFAULT_MAX_ROLLOUT_DEPTH));
-        config.setProperty(MCTSSP.NUM_ITERATIONS_SETTING, 
-            Integer.toString(MCTSSP.DEFAULT_NUM_ITERATIONS));
+        config.setProperty(MCP.EXPLORATION_CONSTANT_SETTING, 
+            Double.toString(MCP.DEFAULT_EXPLORATION_CONSTANT));
+        config.setProperty(MCP.MAX_ROLLOUT_DEPTH_SETTING, 
+            Integer.toString(MCP.DEFAULT_MAX_ROLLOUT_DEPTH));
+        config.setProperty(MCP.NUM_ITERATIONS_SETTING, 
+            Integer.toString(MCP.DEFAULT_NUM_ITERATIONS));
         return config;
     }
 
@@ -398,7 +398,7 @@ public class MCTSSP extends AbstractPlanner {
 
     public static void main(String[] args) {
         try {
-            final MCTSSP planner = new MCTSSP();
+            final MCP planner = new MCP();
             CommandLine cmd = new CommandLine(planner);
             cmd.execute(args);
         } catch (IllegalArgumentException e) {
