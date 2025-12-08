@@ -1,0 +1,993 @@
+========================================
+RÉSULTATS DE PLANIFICATION
+Algorithm: MCP
+Date: Mon Dec  8 11:00:46 CET 2025
+========================================
+
+
+========================================
+TEST: Blocks-P001
+Domain: src/test/resources/benchmarks/pddl/ipc2000/blocks/strips-typed/domain.pddl
+Problem: src/test/resources/benchmarks/pddl/ipc2000/blocks/strips-typed/p001.pddl
+========================================
+
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p001.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (40 actions, 29 fluents)
+
+* Starting Monte Carlo Random Walk search 
+* New minimum heuristic: 4.0* Monte Carlo search succeeded
+
+found plan as follows:
+
+00: (  pick-up c) [0]
+01: ( put-down c) [0]
+02: (  pick-up d) [0]
+03: (  stack d c) [0]
+04: (unstack d c) [0]
+05: ( put-down d) [0]
+06: (unstack b a) [0]
+07: ( put-down b) [0]
+08: (  pick-up d) [0]
+09: ( put-down d) [0]
+10: (  pick-up c) [0]
+11: (  stack c d) [0]
+12: (unstack c d) [0]
+13: (  stack c b) [0]
+14: (unstack c b) [0]
+15: (  stack c a) [0]
+16: (unstack c a) [0]
+17: (  stack c a) [0]
+18: (  pick-up d) [0]
+19: (  stack d c) [0]
+20: (unstack d c) [0]
+21: ( put-down d) [0]
+22: (unstack c a) [0]
+23: (  stack c b) [0]
+24: (  pick-up d) [0]
+25: ( put-down d) [0]
+26: (unstack c b) [0]
+27: ( put-down c) [0]
+28: (  pick-up a) [0]
+29: ( put-down a) [0]
+30: (  pick-up a) [0]
+31: (  stack a c) [0]
+32: (unstack a c) [0]
+33: (  stack a c) [0]
+34: (unstack a c) [0]
+35: ( put-down a) [0]
+36: (  pick-up c) [0]
+37: ( put-down c) [0]
+38: (  pick-up c) [0]
+39: (  stack c d) [0]
+40: (  pick-up a) [0]
+41: ( put-down a) [0]
+42: (unstack c d) [0]
+43: (  stack c b) [0]
+44: (  pick-up a) [0]
+45: ( put-down a) [0]
+46: (unstack c b) [0]
+47: (  stack c d) [0]
+48: (unstack c d) [0]
+49: (  stack c d) [0]
+50: (  pick-up b) [0]
+51: ( put-down b) [0]
+52: (  pick-up b) [0]
+53: ( put-down b) [0]
+54: (unstack c d) [0]
+55: ( put-down c) [0]
+56: (  pick-up b) [0]
+57: (  stack b a) [0]
+58: (  pick-up c) [0]
+59: ( put-down c) [0]
+60: (  pick-up c) [0]
+61: (  stack c d) [0]
+62: (unstack c d) [0]
+63: (  stack c d) [0]
+64: (unstack b a) [0]
+65: (  stack b a) [0]
+66: (unstack b a) [0]
+67: (  stack b a) [0]
+68: (unstack c d) [0]
+69: ( put-down c) [0]
+70: (  pick-up c) [0]
+71: (  stack c b) [0]
+72: (  pick-up d) [0]
+73: (  stack d c) [0]
+
+time spent:       0,01 seconds parsing 
+                  0,02 seconds encoding 
+                  0,04 seconds searching
+                  0,07 seconds total time
+
+memory used:      0,19 MBytes for problem representation
+                  0,00 MBytes for searching
+                  0,19 MBytes total
+
+
+
+----------------------------------------
+
+
+========================================
+TEST: Blocks-P005
+Domain: src/test/resources/benchmarks/pddl/ipc2000/blocks/strips-typed/domain.pddl
+Problem: src/test/resources/benchmarks/pddl/ipc2000/blocks/strips-typed/p005.pddl
+========================================
+
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p005.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (60 actions, 41 fluents)
+
+* Starting Monte Carlo Random Walk search 
+* New minimum heuristic: 6.0* Monte Carlo search succeeded
+
+found plan as follows:
+
+00: (unstack a e) [0]
+01: (  stack a e) [0]
+02: (unstack c d) [0]
+03: (  stack c d) [0]
+04: (  pick-up b) [0]
+05: (  stack b a) [0]
+06: (unstack c d) [0]
+07: ( put-down c) [0]
+08: (unstack b a) [0]
+09: (  stack b a) [0]
+10: (  pick-up c) [0]
+11: (  stack c d) [0]
+12: (unstack c d) [0]
+13: (  stack c d) [0]
+14: (unstack c d) [0]
+15: (  stack c d) [0]
+16: (unstack c d) [0]
+17: (  stack c b) [0]
+18: (  pick-up d) [0]
+19: (  stack d c) [0]
+
+time spent:       0,01 seconds parsing 
+                  0,02 seconds encoding 
+                  0,03 seconds searching
+                  0,07 seconds total time
+
+memory used:      0,26 MBytes for problem representation
+                  0,00 MBytes for searching
+                  0,26 MBytes total
+
+
+
+----------------------------------------
+
+
+========================================
+TEST: Blocks-P010
+Domain: src/test/resources/benchmarks/pddl/ipc2000/blocks/strips-typed/domain.pddl
+Problem: src/test/resources/benchmarks/pddl/ipc2000/blocks/strips-typed/p010.pddl
+========================================
+
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p010.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (112 actions, 71 fluents)
+
+* Starting Monte Carlo Random Walk search 
+* New minimum heuristic: 10.0* New minimum heuristic: 9.0* New minimum heuristic: 8.0* New minimum heuristic: 5.0* New minimum heuristic: 4.0* Monte Carlo search succeeded
+
+found plan as follows:
+
+00: (unstack b g) [0]
+01: (  stack b a) [0]
+02: (unstack g c) [0]
+03: ( put-down g) [0]
+04: (unstack b a) [0]
+05: (  stack b c) [0]
+06: (unstack a d) [0]
+07: (  stack a g) [0]
+08: (unstack a g) [0]
+09: (  stack a b) [0]
+10: (unstack a b) [0]
+11: (  stack a b) [0]
+12: (  pick-up d) [0]
+13: ( put-down d) [0]
+14: (  pick-up d) [0]
+15: (  stack d g) [0]
+16: (unstack a b) [0]
+17: ( put-down a) [0]
+18: (  pick-up a) [0]
+19: (  stack a b) [0]
+20: (unstack d g) [0]
+21: (  stack d g) [0]
+22: (unstack d g) [0]
+23: (  stack d g) [0]
+24: (unstack a b) [0]
+25: ( put-down a) [0]
+26: (  pick-up a) [0]
+27: (  stack a b) [0]
+28: (unstack a b) [0]
+29: ( put-down a) [0]
+30: (  pick-up a) [0]
+31: ( put-down a) [0]
+32: (unstack d g) [0]
+33: ( put-down d) [0]
+34: (unstack b c) [0]
+35: (  stack b c) [0]
+36: (  pick-up d) [0]
+37: (  stack d b) [0]
+38: (  pick-up a) [0]
+39: ( put-down a) [0]
+40: (  pick-up g) [0]
+41: (  stack g d) [0]
+42: (  pick-up a) [0]
+43: (  stack a g) [0]
+
+time spent:       0,01 seconds parsing 
+                  0,03 seconds encoding 
+                  0,47 seconds searching
+                  0,51 seconds total time
+
+memory used:      0,45 MBytes for problem representation
+                  0,00 MBytes for searching
+                  0,45 MBytes total
+
+
+
+----------------------------------------
+
+
+========================================
+TEST: Elevator-P001
+Domain: src/test/resources/benchmarks/pddl/ipc2000/elevator/strips-simple-typed/domain.pddl
+Problem: src/test/resources/benchmarks/pddl/ipc2000/elevator/strips-simple-typed/p001.pddl
+========================================
+
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p001.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (4 actions, 7 fluents)
+
+* Starting Monte Carlo Random Walk search 
+* Monte Carlo search succeeded
+
+found plan as follows:
+
+00: (    up f0 f1) [0]
+01: (  down f1 f0) [0]
+02: (    up f0 f1) [0]
+03: (  down f1 f0) [0]
+04: (    up f0 f1) [0]
+05: (  down f1 f0) [0]
+06: (    up f0 f1) [0]
+07: ( board f1 p0) [0]
+08: ( board f1 p0) [0]
+09: ( board f1 p0) [0]
+10: (  down f1 f0) [0]
+11: (depart f0 p0) [0]
+
+time spent:       0,01 seconds parsing 
+                  0,01 seconds encoding 
+                  0,00 seconds searching
+                  0,02 seconds total time
+
+memory used:      0,05 MBytes for problem representation
+                  0,00 MBytes for searching
+                  0,05 MBytes total
+
+
+
+----------------------------------------
+
+
+========================================
+TEST: Elevator-P005
+Domain: src/test/resources/benchmarks/pddl/ipc2000/elevator/strips-simple-typed/domain.pddl
+Problem: src/test/resources/benchmarks/pddl/ipc2000/elevator/strips-simple-typed/p005.pddl
+========================================
+
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p005.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (4 actions, 7 fluents)
+
+* Starting Monte Carlo Random Walk search 
+* Monte Carlo search succeeded
+
+found plan as follows:
+
+0: (    up f0 f1) [0]
+1: ( board f1 p0) [0]
+2: (  down f1 f0) [0]
+3: (depart f0 p0) [0]
+
+time spent:       0,01 seconds parsing 
+                  0,01 seconds encoding 
+                  0,00 seconds searching
+                  0,02 seconds total time
+
+memory used:      0,05 MBytes for problem representation
+                  0,00 MBytes for searching
+                  0,05 MBytes total
+
+
+
+----------------------------------------
+
+
+========================================
+TEST: Elevator-P010
+Domain: src/test/resources/benchmarks/pddl/ipc2000/elevator/strips-simple-typed/domain.pddl
+Problem: src/test/resources/benchmarks/pddl/ipc2000/elevator/strips-simple-typed/p010.pddl
+========================================
+
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p010.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (16 actions, 18 fluents)
+
+* Starting Monte Carlo Random Walk search 
+* Monte Carlo search succeeded
+
+found plan as follows:
+
+00: (    up f0 f3) [0]
+01: (  down f3 f1) [0]
+02: (  down f1 f0) [0]
+03: (    up f0 f3) [0]
+04: (  down f3 f1) [0]
+05: (    up f1 f3) [0]
+06: (  down f3 f2) [0]
+07: (  down f2 f1) [0]
+08: (    up f1 f3) [0]
+09: ( board f3 p0) [0]
+10: (  down f3 f0) [0]
+11: (    up f0 f3) [0]
+12: (  down f3 f0) [0]
+13: (    up f0 f3) [0]
+14: (  down f3 f0) [0]
+15: (    up f0 f2) [0]
+16: (depart f2 p0) [0]
+17: (  down f2 f1) [0]
+18: (    up f1 f3) [0]
+19: (  down f3 f2) [0]
+20: (    up f2 f3) [0]
+21: ( board f3 p0) [0]
+22: ( board f3 p0) [0]
+23: (  down f3 f0) [0]
+24: (    up f0 f2) [0]
+25: (  down f2 f0) [0]
+26: (    up f0 f1) [0]
+27: (    up f1 f3) [0]
+28: (  down f3 f0) [0]
+29: (    up f0 f1) [0]
+30: (    up f1 f3) [0]
+31: (  down f3 f0) [0]
+32: (    up f0 f1) [0]
+33: (    up f1 f3) [0]
+34: (  down f3 f1) [0]
+35: (  down f1 f0) [0]
+36: (    up f0 f1) [0]
+37: (    up f1 f2) [0]
+38: (  down f2 f1) [0]
+39: (  down f1 f0) [0]
+40: (    up f0 f1) [0]
+41: (    up f1 f3) [0]
+42: ( board f3 p0) [0]
+43: ( board f3 p0) [0]
+44: (  down f3 f2) [0]
+45: (depart f2 p0) [0]
+46: (  down f2 f1) [0]
+47: (    up f1 f3) [0]
+48: ( board f3 p0) [0]
+49: (  down f3 f1) [0]
+50: (    up f1 f3) [0]
+51: (  down f3 f1) [0]
+52: (  down f1 f0) [0]
+53: (    up f0 f1) [0]
+54: (    up f1 f3) [0]
+55: (  down f3 f1) [0]
+56: (    up f1 f3) [0]
+57: (  down f3 f2) [0]
+58: (  down f2 f1) [0]
+59: (    up f1 f3) [0]
+60: (  down f3 f2) [0]
+61: (  down f2 f0) [0]
+62: (    up f0 f3) [0]
+63: (  down f3 f1) [0]
+64: (  down f1 f0) [0]
+65: (    up f0 f1) [0]
+66: (  down f1 f0) [0]
+67: (    up f0 f3) [0]
+68: (  down f3 f0) [0]
+69: (    up f0 f1) [0]
+70: (    up f1 f3) [0]
+71: (  down f3 f0) [0]
+72: (    up f0 f2) [0]
+73: (  down f2 f1) [0]
+74: (  down f1 f0) [0]
+75: (    up f0 f1) [0]
+76: (    up f1 f2) [0]
+77: (depart f2 p0) [0]
+78: (  down f2 f0) [0]
+79: (    up f0 f1) [0]
+80: (    up f1 f2) [0]
+81: ( board f2 p1) [0]
+82: ( board f2 p1) [0]
+83: (    up f2 f3) [0]
+84: (  down f3 f0) [0]
+85: (    up f0 f2) [0]
+86: (    up f2 f3) [0]
+87: ( board f3 p0) [0]
+88: (  down f3 f2) [0]
+89: (  down f2 f0) [0]
+90: (depart f0 p1) [0]
+
+time spent:       0,01 seconds parsing 
+                  0,01 seconds encoding 
+                  0,00 seconds searching
+                  0,03 seconds total time
+
+memory used:      0,08 MBytes for problem representation
+                  0,00 MBytes for searching
+                  0,08 MBytes total
+
+
+
+----------------------------------------
+
+
+========================================
+TEST: Freecell-P01
+Domain: src/test/resources/benchmarks/pddl/ipc2000/freecell/strips-typed/domain.pddl
+Problem: src/test/resources/benchmarks/pddl/ipc2000/freecell/strips-typed/p01.pddl
+========================================
+
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p01.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (4760 actions, 131 fluents)
+
+* Starting Monte Carlo Random Walk search 
+* Monte Carlo search succeeded
+
+found plan as follows:
+
+00: (         sendtofree-b s2 n4 n3 n2 n3) [0]
+01: (         sendtofree-b h2 n3 n2 n3 n4) [0]
+02: (         sendtofree-b d2 n2 n1 n4 n5) [0]
+03: (                  move-b ha c2 n5 n6) [0]
+04: (   newcolfromfreecell h2 n6 n5 n1 n2) [0]
+05: (   newcolfromfreecell s2 n5 n4 n2 n3) [0]
+06: (         sendtohome ha c2 h n1 h0 n0) [0]
+07: (    sendtohome-b da d n1 d0 n0 n4 n5) [0]
+08: (homefromfreecell d2 d n2 da n1 n3 n4) [0]
+09: (    sendtohome-b h2 h n2 ha n1 n5 n6) [0]
+10: (         sendtofree-b s2 n4 n3 n6 n7) [0]
+11: (              sendtofree c2 ca n3 n2) [0]
+12: (              sendtofree ca sa n2 n1) [0]
+13: (   newcolfromfreecell s2 n7 n6 n1 n2) [0]
+14: (   newcolfromfreecell ca n6 n5 n2 n3) [0]
+15: (    sendtohome-b ca c n1 c0 n0 n5 n6) [0]
+16: (         sendtofree-b s2 n3 n2 n6 n7) [0]
+17: (    sendtohome-b sa s n1 s0 n0 n7 n8) [0]
+18: (   newcolfromfreecell c2 n8 n7 n2 n3) [0]
+19: (homefromfreecell s2 s n2 sa n1 n3 n4) [0]
+20: (         sendtofree-b c2 n4 n3 n7 n8) [0]
+21: (homefromfreecell c2 c n2 ca n1 n3 n4) [0]
+
+time spent:       0,02 seconds parsing 
+                  0,49 seconds encoding 
+                  0,03 seconds searching
+                  0,54 seconds total time
+
+memory used:     20,47 MBytes for problem representation
+                  0,00 MBytes for searching
+                 20,47 MBytes total
+
+
+
+----------------------------------------
+
+
+========================================
+TEST: Freecell-P05
+Domain: src/test/resources/benchmarks/pddl/ipc2000/freecell/strips-typed/domain.pddl
+Problem: src/test/resources/benchmarks/pddl/ipc2000/freecell/strips-typed/p05.pddl
+========================================
+
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p05.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (4760 actions, 131 fluents)
+
+* Starting Monte Carlo Random Walk search 
+* Monte Carlo search succeeded
+
+found plan as follows:
+
+00: (         sendtofree-b d2 n4 n3 n2 n3) [0]
+01: (            sendtonewcol da sa n3 n2) [0]
+02: (                  move-b da c2 n2 n3) [0]
+03: (         sendtohome da c2 d n1 d0 n0) [0]
+04: (                  move-b ca h2 n3 n4) [0]
+05: (   newcolfromfreecell d2 n4 n3 n3 n4) [0]
+06: (         sendtohome ca h2 c n1 c0 n0) [0]
+07: (         sendtofree-b s2 n4 n3 n3 n4) [0]
+08: (    sendtohome-b d2 d n2 da n1 n4 n5) [0]
+09: (    sendtohome-b sa s n1 s0 n0 n5 n6) [0]
+10: (homefromfreecell s2 s n2 sa n1 n3 n4) [0]
+11: (    sendtohome-b c2 c n2 ca n1 n6 n7) [0]
+12: (            sendtonewcol h2 ha n7 n6) [0]
+13: (         sendtofree-b ha n4 n3 n6 n7) [0]
+14: (homefromfreecell ha h n1 h0 n0 n3 n4) [0]
+15: (    sendtohome-b h2 h n2 ha n1 n7 n8) [0]
+
+time spent:       0,02 seconds parsing 
+                  0,46 seconds encoding 
+                  0,02 seconds searching
+                  0,50 seconds total time
+
+memory used:     20,47 MBytes for problem representation
+                  0,00 MBytes for searching
+                 20,47 MBytes total
+
+
+
+----------------------------------------
+
+
+========================================
+TEST: Freecell-P10
+Domain: src/test/resources/benchmarks/pddl/ipc2000/freecell/strips-typed/domain.pddl
+Problem: src/test/resources/benchmarks/pddl/ipc2000/freecell/strips-typed/p10.pddl
+========================================
+
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p10.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (6712 actions, 173 fluents)
+
+* Starting Monte Carlo Random Walk search 
+* Monte Carlo search succeeded
+
+found plan as follows:
+
+00: (         sendtohome ca d3 c n1 c0 n0) [0]
+01: (              sendtofree h2 s3 n4 n3) [0]
+02: (              sendtofree da sa n3 n2) [0]
+03: (         colfromfreecell da c2 n2 n3) [0]
+04: (                  move-b d2 s3 n1 n2) [0]
+05: (            sendtonewcol c3 s2 n2 n1) [0]
+06: (            sendtonewcol d2 s3 n1 n0) [0]
+07: (                  move-b d2 s3 n0 n1) [0]
+08: (         sendtofree-b s2 n3 n2 n1 n2) [0]
+09: (         sendtofree-b h3 n2 n1 n2 n3) [0]
+10: (   newcolfromfreecell s2 n3 n2 n1 n2) [0]
+11: (              sendtofree d2 s3 n2 n1) [0]
+12: (   newcolfromfreecell d2 n2 n1 n1 n2) [0]
+13: (              sendtofree s3 ha n2 n1) [0]
+14: (              sendtofree da c2 n1 n0) [0]
+15: (   newcolfromfreecell h3 n1 n0 n0 n1) [0]
+16: (         sendtofree-b c2 n1 n0 n0 n1) [0]
+17: (   newcolfromfreecell h2 n1 n0 n0 n1) [0]
+18: (                  move-b sa h2 n0 n1) [0]
+19: (   newcolfromfreecell c2 n1 n0 n1 n2) [0]
+20: (                       move sa h2 d2) [0]
+21: (         sendtofree-b c3 n2 n1 n0 n1) [0]
+22: (         colfromfreecell da c2 n1 n2) [0]
+23: (         sendtofree-b ha n2 n1 n1 n2) [0]
+24: (              sendtofree da c2 n1 n0) [0]
+25: (         colfromfreecell da c2 n0 n1) [0]
+26: (                  move-b s2 h3 n2 n3) [0]
+27: (                       move s2 h3 d3) [0]
+28: (homefromfreecell ha h n1 h0 n0 n1 n2) [0]
+29: (              sendtofree s2 d3 n2 n1) [0]
+30: (   newcolfromfreecell s3 n3 n2 n1 n2) [0]
+31: (              sendtofree sa d2 n2 n1) [0]
+32: (         colfromfreecell sa h2 n1 n2) [0]
+33: (         sendtofree-b d3 n2 n1 n2 n3) [0]
+34: (   newcolfromfreecell c3 n3 n2 n1 n2) [0]
+35: (         sendtofree-b s3 n2 n1 n2 n3) [0]
+36: (                       move sa h2 d2) [0]
+37: (         sendtohome sa d2 s n1 s0 n0) [0]
+38: (         sendtofree-b c3 n1 n0 n3 n4) [0]
+39: (    sendtohome-b h2 h n2 ha n1 n4 n5) [0]
+40: (   newcolfromfreecell c3 n5 n4 n0 n1) [0]
+41: (            sendtonewcol da c2 n4 n3) [0]
+42: (         sendtofree-b d2 n1 n0 n3 n4) [0]
+43: (         colfromfreecell s2 h3 n0 n1) [0]
+44: (   newcolfromfreecell s3 n4 n3 n1 n2) [0]
+45: (                  move-b da c2 n3 n4) [0]
+46: (            sendtonewcol da c2 n4 n3) [0]
+47: (                  move-b da c2 n3 n4) [0]
+48: (                       move da c2 s2) [0]
+49: (    sendtohome-b c2 c n2 ca n1 n4 n5) [0]
+50: (         sendtofree-b s3 n2 n1 n5 n6) [0]
+51: (   newcolfromfreecell s3 n6 n5 n1 n2) [0]
+52: (         sendtohome da s2 d n1 d0 n0) [0]
+53: (         sendtofree-b c3 n2 n1 n5 n6) [0]
+54: (   newcolfromfreecell d2 n6 n5 n1 n2) [0]
+55: (         sendtohome s2 h3 s n2 sa n1) [0]
+56: (    sendtohome-b s3 s n3 s2 n2 n5 n6) [0]
+57: (   newcolfromfreecell c3 n6 n5 n2 n3) [0]
+58: (                  move-b d2 c3 n5 n6) [0]
+59: (   newcolfromfreecell d3 n6 n5 n3 n4) [0]
+60: (         sendtofree-b h3 n4 n3 n5 n6) [0]
+61: (   newcolfromfreecell h3 n6 n5 n3 n4) [0]
+62: (            sendtonewcol d2 c3 n5 n4) [0]
+63: (    sendtohome-b d2 d n2 da n1 n4 n5) [0]
+64: (         sendtofree-b c3 n4 n3 n5 n6) [0]
+65: (         sendtofree-b d3 n3 n2 n6 n7) [0]
+66: (   newcolfromfreecell c3 n7 n6 n2 n3) [0]
+67: (    sendtohome-b h3 h n3 h2 n2 n6 n7) [0]
+68: (   newcolfromfreecell d3 n7 n6 n3 n4) [0]
+69: (    sendtohome-b c3 c n3 c2 n2 n6 n7) [0]
+70: (         sendtofree-b d3 n4 n3 n7 n8) [0]
+71: (homefromfreecell d3 d n3 d2 n2 n3 n4) [0]
+
+time spent:       0,02 seconds parsing 
+                  0,72 seconds encoding 
+                  0,05 seconds searching
+                  0,79 seconds total time
+
+memory used:     28,71 MBytes for problem representation
+                  0,00 MBytes for searching
+                 28,71 MBytes total
+
+
+
+----------------------------------------
+
+
+========================================
+TEST: Logistics-P01
+Domain: src/test/resources/benchmarks/pddl/ipc2000/logistics/strips-typed/domain.pddl
+Problem: src/test/resources/benchmarks/pddl/ipc2000/logistics/strips-typed/p01.pddl
+========================================
+
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p01.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (140 actions, 56 fluents)
+
+* Starting Monte Carlo Random Walk search 
+* New minimum heuristic: 6.0* New minimum heuristic: 5.0* Monte Carlo search succeeded
+
+found plan as follows:
+
+00: (     load-truck obj21 tru1 apt1) [0]
+01: (     load-truck obj22 tru2 pos2) [0]
+02: (    fly-airplane apn1 apt1 apt1) [0]
+03: (drive-truck tru2 pos2 apt2 cit2) [0]
+04: (drive-truck tru1 apt1 pos1 cit1) [0]
+05: (     load-truck obj12 tru2 apt2) [0]
+06: (    fly-airplane apn1 apt1 apt1) [0]
+07: (drive-truck tru1 pos1 pos1 cit1) [0]
+08: (     load-truck obj23 tru1 pos1) [0]
+09: (    fly-airplane apn1 apt1 apt2) [0]
+10: (drive-truck tru2 apt2 apt2 cit2) [0]
+11: (drive-truck tru2 apt2 pos2 cit2) [0]
+12: (drive-truck tru1 pos1 apt1 cit1) [0]
+13: (   unload-truck obj21 tru1 apt1) [0]
+14: (   unload-truck obj22 tru2 pos2) [0]
+15: (   unload-truck obj12 tru2 pos2) [0]
+16: (     load-truck obj13 tru1 apt1) [0]
+17: (     load-truck obj22 tru2 pos2) [0]
+18: (   unload-truck obj13 tru1 apt1) [0]
+19: (drive-truck tru2 pos2 apt2 cit2) [0]
+20: (   unload-truck obj22 tru2 apt2) [0]
+21: (     load-truck obj13 tru1 apt1) [0]
+22: (   unload-truck obj23 tru1 apt1) [0]
+23: (  load-airplane obj22 apn1 apt2) [0]
+24: (   unload-truck obj13 tru1 apt1) [0]
+25: (     load-truck obj21 tru1 apt1) [0]
+26: (    fly-airplane apn1 apt2 apt1) [0]
+27: (drive-truck tru2 apt2 pos2 cit2) [0]
+28: (drive-truck tru1 apt1 pos1 cit1) [0]
+29: (drive-truck tru2 pos2 pos2 cit2) [0]
+30: (drive-truck tru1 pos1 apt1 cit1) [0]
+31: (     load-truck obj23 tru1 apt1) [0]
+32: (drive-truck tru2 pos2 apt2 cit2) [0]
+33: (drive-truck tru1 apt1 pos1 cit1) [0]
+34: (    fly-airplane apn1 apt1 apt2) [0]
+35: (    fly-airplane apn1 apt2 apt2) [0]
+36: (unload-airplane obj22 apn1 apt2) [0]
+37: (   unload-truck obj23 tru1 pos1) [0]
+38: (  load-airplane obj22 apn1 apt2) [0]
+39: (   unload-truck obj21 tru1 pos1) [0]
+40: (drive-truck tru2 apt2 apt2 cit2) [0]
+41: (    fly-airplane apn1 apt2 apt1) [0]
+42: (drive-truck tru1 pos1 pos1 cit1) [0]
+43: (    fly-airplane apn1 apt1 apt2) [0]
+44: (drive-truck tru2 apt2 apt2 cit2) [0]
+45: (    fly-airplane apn1 apt2 apt2) [0]
+46: (drive-truck tru2 apt2 apt2 cit2) [0]
+47: (unload-airplane obj22 apn1 apt2) [0]
+48: (     load-truck obj22 tru2 apt2) [0]
+49: (drive-truck tru2 apt2 pos2 cit2) [0]
+50: (    fly-airplane apn1 apt2 apt1) [0]
+51: (     load-truck obj23 tru1 pos1) [0]
+52: (drive-truck tru1 pos1 pos1 cit1) [0]
+53: (   unload-truck obj22 tru2 pos2) [0]
+54: (   unload-truck obj23 tru1 pos1) [0]
+55: (    fly-airplane apn1 apt1 apt1) [0]
+56: (     load-truck obj11 tru1 pos1) [0]
+57: (drive-truck tru1 pos1 pos1 cit1) [0]
+58: (     load-truck obj12 tru2 pos2) [0]
+59: (   unload-truck obj12 tru2 pos2) [0]
+60: (     load-truck obj22 tru2 pos2) [0]
+61: (    fly-airplane apn1 apt1 apt2) [0]
+62: (drive-truck tru1 pos1 apt1 cit1) [0]
+63: (     load-truck obj12 tru2 pos2) [0]
+64: (   unload-truck obj12 tru2 pos2) [0]
+65: (    fly-airplane apn1 apt2 apt2) [0]
+66: (   unload-truck obj11 tru1 apt1) [0]
+
+time spent:       0,01 seconds parsing 
+                  0,03 seconds encoding 
+                  0,07 seconds searching
+                  0,11 seconds total time
+
+memory used:      0,43 MBytes for problem representation
+                  0,00 MBytes for searching
+                  0,43 MBytes total
+
+
+
+----------------------------------------
+
+
+========================================
+TEST: Logistics-P05
+Domain: src/test/resources/benchmarks/pddl/ipc2000/logistics/strips-typed/domain.pddl
+Problem: src/test/resources/benchmarks/pddl/ipc2000/logistics/strips-typed/p05.pddl
+========================================
+
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p05.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (140 actions, 56 fluents)
+
+* Starting Monte Carlo Random Walk search 
+* New minimum heuristic: 9.0* New minimum heuristic: 5.0* New minimum heuristic: 4.0* Monte Carlo search succeeded
+
+found plan as follows:
+
+00: (     load-truck obj21 tru2 apt2) [0]
+01: (drive-truck tru1 pos1 pos1 cit1) [0]
+02: (drive-truck tru2 apt2 pos2 cit2) [0]
+03: (unload-airplane obj12 apn1 apt1) [0]
+04: (drive-truck tru1 pos1 pos1 cit1) [0]
+05: (     load-truck obj23 tru1 pos1) [0]
+06: (    fly-airplane apn1 apt1 apt2) [0]
+07: (drive-truck tru1 pos1 pos1 cit1) [0]
+08: (drive-truck tru2 pos2 apt2 cit2) [0]
+09: (   unload-truck obj23 tru1 pos1) [0]
+10: (     load-truck obj11 tru1 pos1) [0]
+11: (drive-truck tru1 pos1 pos1 cit1) [0]
+12: (drive-truck tru1 pos1 pos1 cit1) [0]
+13: (   unload-truck obj11 tru1 pos1) [0]
+14: (drive-truck tru2 apt2 apt2 cit2) [0]
+15: (    fly-airplane apn1 apt2 apt1) [0]
+16: (   unload-truck obj21 tru2 apt2) [0]
+17: (  load-airplane obj12 apn1 apt1) [0]
+18: (  load-airplane obj22 apn1 apt1) [0]
+19: (drive-truck tru1 pos1 apt1 cit1) [0]
+20: (    fly-airplane apn1 apt1 apt2) [0]
+21: (drive-truck tru1 apt1 pos1 cit1) [0]
+22: (drive-truck tru1 pos1 apt1 cit1) [0]
+23: (unload-airplane obj13 apn1 apt2) [0]
+24: (  load-airplane obj21 apn1 apt2) [0]
+25: (drive-truck tru2 apt2 pos2 cit2) [0]
+26: (unload-airplane obj21 apn1 apt2) [0]
+27: (drive-truck tru1 apt1 pos1 cit1) [0]
+28: (unload-airplane obj22 apn1 apt2) [0]
+29: (drive-truck tru2 pos2 pos2 cit2) [0]
+30: (drive-truck tru1 pos1 pos1 cit1) [0]
+31: (    fly-airplane apn1 apt2 apt2) [0]
+32: (  load-airplane obj13 apn1 apt2) [0]
+33: (drive-truck tru1 pos1 apt1 cit1) [0]
+34: (    fly-airplane apn1 apt2 apt2) [0]
+35: (unload-airplane obj13 apn1 apt2) [0]
+36: (    fly-airplane apn1 apt2 apt1) [0]
+37: (drive-truck tru2 pos2 pos2 cit2) [0]
+38: (drive-truck tru1 apt1 apt1 cit1) [0]
+39: (drive-truck tru1 apt1 apt1 cit1) [0]
+40: (unload-airplane obj12 apn1 apt1) [0]
+
+time spent:       0,01 seconds parsing 
+                  0,03 seconds encoding 
+                  0,08 seconds searching
+                  0,12 seconds total time
+
+memory used:      0,43 MBytes for problem representation
+                  0,00 MBytes for searching
+                  0,43 MBytes total
+
+
+
+----------------------------------------
+
+
+========================================
+TEST: Logistics-P10
+Domain: src/test/resources/benchmarks/pddl/ipc2000/logistics/strips-typed/domain.pddl
+Problem: src/test/resources/benchmarks/pddl/ipc2000/logistics/strips-typed/p10.pddl
+========================================
+
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+
+parsing domain file "domain.pddl" done successfully
+parsing problem file "p10.pddl" done successfully
+# WARNING: Unable to get Instrumentation. Dynamic Attach failed. You may add this JAR as -javaagent manually, or supply -Djdk.attach.allowAttachSelf
+# WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+problem instantiation done successfully (140 actions, 56 fluents)
+
+* Starting Monte Carlo Random Walk search 
+* New minimum heuristic: 14.0* New minimum heuristic: 11.0* New minimum heuristic: 5.0* Monte Carlo search succeeded
+
+found plan as follows:
+
+00: (unload-airplane obj11 apn1 apt1) [0]
+01: (   unload-truck obj13 tru2 pos2) [0]
+02: (     load-truck obj13 tru2 pos2) [0]
+03: (drive-truck tru1 pos1 pos1 cit1) [0]
+04: (  load-airplane obj11 apn1 apt1) [0]
+05: (     load-truck obj12 tru1 pos1) [0]
+06: (   unload-truck obj12 tru1 pos1) [0]
+07: (drive-truck tru2 pos2 apt2 cit2) [0]
+08: (    fly-airplane apn1 apt1 apt2) [0]
+09: (unload-airplane obj21 apn1 apt2) [0]
+10: (    fly-airplane apn1 apt2 apt1) [0]
+11: (     load-truck obj21 tru2 apt2) [0]
+12: (   unload-truck obj21 tru2 apt2) [0]
+13: (drive-truck tru1 pos1 apt1 cit1) [0]
+14: (drive-truck tru2 apt2 pos2 cit2) [0]
+15: (unload-airplane obj11 apn1 apt1) [0]
+16: (    fly-airplane apn1 apt1 apt2) [0]
+17: (drive-truck tru1 apt1 pos1 cit1) [0]
+18: (    fly-airplane apn1 apt2 apt2) [0]
+19: (     load-truck obj22 tru1 pos1) [0]
+20: (     load-truck obj23 tru1 pos1) [0]
+21: (     load-truck obj12 tru1 pos1) [0]
+22: (drive-truck tru2 pos2 apt2 cit2) [0]
+23: (drive-truck tru1 pos1 pos1 cit1) [0]
+24: (    fly-airplane apn1 apt2 apt1) [0]
+25: (   unload-truck obj22 tru1 pos1) [0]
+26: (    fly-airplane apn1 apt1 apt2) [0]
+27: (drive-truck tru2 apt2 apt2 cit2) [0]
+28: (   unload-truck obj12 tru1 pos1) [0]
+29: (drive-truck tru1 pos1 pos1 cit1) [0]
+30: (     load-truck obj12 tru1 pos1) [0]
+31: (   unload-truck obj23 tru1 pos1) [0]
+32: (     load-truck obj21 tru2 apt2) [0]
+33: (     load-truck obj23 tru1 pos1) [0]
+34: (   unload-truck obj23 tru1 pos1) [0]
+35: (    fly-airplane apn1 apt2 apt1) [0]
+36: (  load-airplane obj11 apn1 apt1) [0]
+37: (     load-truck obj23 tru1 pos1) [0]
+38: (   unload-truck obj12 tru1 pos1) [0]
+39: (     load-truck obj22 tru1 pos1) [0]
+40: (unload-airplane obj11 apn1 apt1) [0]
+41: (    fly-airplane apn1 apt1 apt2) [0]
+42: (drive-truck tru1 pos1 pos1 cit1) [0]
+43: (drive-truck tru2 apt2 pos2 cit2) [0]
+44: (drive-truck tru2 pos2 pos2 cit2) [0]
+45: (drive-truck tru2 pos2 pos2 cit2) [0]
+46: (   unload-truck obj21 tru2 pos2) [0]
+47: (    fly-airplane apn1 apt2 apt1) [0]
+48: (     load-truck obj21 tru2 pos2) [0]
+49: (drive-truck tru1 pos1 apt1 cit1) [0]
+50: (  load-airplane obj11 apn1 apt1) [0]
+51: (drive-truck tru1 apt1 pos1 cit1) [0]
+52: (   unload-truck obj13 tru2 pos2) [0]
+53: (    fly-airplane apn1 apt1 apt1) [0]
+54: (    fly-airplane apn1 apt1 apt2) [0]
+55: (    fly-airplane apn1 apt2 apt2) [0]
+56: (   unload-truck obj23 tru1 pos1) [0]
+57: (drive-truck tru1 pos1 pos1 cit1) [0]
+58: (unload-airplane obj11 apn1 apt2) [0]
+59: (   unload-truck obj22 tru1 pos1) [0]
+60: (     load-truck obj23 tru1 pos1) [0]
+61: (drive-truck tru1 pos1 pos1 cit1) [0]
+62: (    fly-airplane apn1 apt2 apt1) [0]
+63: (   unload-truck obj21 tru2 pos2) [0]
+64: (     load-truck obj13 tru2 pos2) [0]
+65: (    fly-airplane apn1 apt1 apt1) [0]
+66: (    fly-airplane apn1 apt1 apt1) [0]
+67: (drive-truck tru2 pos2 pos2 cit2) [0]
+68: (   unload-truck obj23 tru1 pos1) [0]
+69: (    fly-airplane apn1 apt1 apt2) [0]
+70: (    fly-airplane apn1 apt2 apt2) [0]
+71: (     load-truck obj22 tru1 pos1) [0]
+72: (drive-truck tru1 pos1 apt1 cit1) [0]
+73: (   unload-truck obj22 tru1 apt1) [0]
+74: (   unload-truck obj13 tru2 pos2) [0]
+75: (  load-airplane obj11 apn1 apt2) [0]
+76: (    fly-airplane apn1 apt2 apt2) [0]
+77: (    fly-airplane apn1 apt2 apt1) [0]
+78: (     load-truck obj21 tru2 pos2) [0]
+79: (  load-airplane obj22 apn1 apt1) [0]
+80: (     load-truck obj13 tru2 pos2) [0]
+81: (drive-truck tru2 pos2 pos2 cit2) [0]
+82: (unload-airplane obj22 apn1 apt1) [0]
+83: (    fly-airplane apn1 apt1 apt1) [0]
+84: (   unload-truck obj13 tru2 pos2) [0]
+85: (unload-airplane obj11 apn1 apt1) [0]
+86: (    fly-airplane apn1 apt1 apt1) [0]
+87: (  load-airplane obj11 apn1 apt1) [0]
+88: (drive-truck tru2 pos2 pos2 cit2) [0]
+89: (drive-truck tru2 pos2 pos2 cit2) [0]
+90: (    fly-airplane apn1 apt1 apt2) [0]
+91: (   unload-truck obj21 tru2 pos2) [0]
+92: (drive-truck tru2 pos2 apt2 cit2) [0]
+93: (    fly-airplane apn1 apt2 apt2) [0]
+94: (unload-airplane obj11 apn1 apt2) [0]
+95: (  load-airplane obj11 apn1 apt2) [0]
+96: (    fly-airplane apn1 apt2 apt1) [0]
+97: (drive-truck tru1 apt1 pos1 cit1) [0]
+98: (unload-airplane obj11 apn1 apt1) [0]
+
+time spent:       0,01 seconds parsing 
+                  0,03 seconds encoding 
+                  0,21 seconds searching
+                  0,25 seconds total time
+
+memory used:      0,43 MBytes for problem representation
+                  0,00 MBytes for searching
+                  0,43 MBytes total
+
+
+
+----------------------------------------
+
+
+========================================
+TESTS TERMINÉS
+Date: Mon Dec  8 11:01:09 CET 2025
+========================================
