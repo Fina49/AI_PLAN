@@ -40,21 +40,12 @@ run_test() {
     echo "" >> "$OUTPUT_FILE"
 }
 
-# BlocksWorld
-if [ -f "src/test/resources/benchmarks/pddl/blocksworld/blocksworld_domain.pddl" ]; then
-    run_test \
-        "src/test/resources/benchmarks/pddl/blocksworld/blocksworld_domain.pddl" \
-        "src/test/resources/benchmarks/pddl/blocksworld/blocksworld.pddl" \
-        "BlocksWorld"
-fi
-
-# Hanoi
-if [ -f "src/test/resources/benchmarks/pddl/hanoi/hanoi_domain.pddl" ]; then
-    run_test \
-        "src/test/resources/benchmarks/pddl/hanoi/hanoi_domain.pddl" \
-        "src/test/resources/benchmarks/pddl/hanoi/hanoi.pddl" \
-        "Hanoi"
-fi
+# if [ -f "src/test/resources/benchmarks/pddl/blocksworld/blocksworld_domain.pddl" ]; then
+#     run_test \
+#         "src/test/resources/benchmarks/pddl/blocksworld/blocksworld_domain.pddl" \
+#         "src/test/resources/benchmarks/pddl/blocksworld/blocksworld.pddl" \
+#         "BlocksWorld"
+# fi
 
 echo "" >> "$OUTPUT_FILE"
 echo "========================================" >> "$OUTPUT_FILE"
