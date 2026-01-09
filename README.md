@@ -1,3 +1,6 @@
+GitHub : https://github.com/Fina49/AI_PLAN<br>
+author: LUGINBÜHL Valentin at valentin.luginbuhl@etu.univ-grenoble-alpes.fr, BEYELER Elie at elie.beyeler@etu.univ-grenoble-alpes.fr<br>
+
 ## Version
 Gradle 9.1.0</br>
 java version "17.0.9" 2023-10-17 LTS</br>
